@@ -1,2 +1,2 @@
-# bash_armv6
-Interprete de comandos escrito en ensamblador, uso libre para modificaciones.
+# Interprete de Comandos
+Interprete de comandos escrito en ensamblador, uso libre para modificaciones. Para realizar pruebas pueden usar QEMU, emulando un chip arm, este intérprete esta diseñado para usarse en ARM V6. Para modificaciones, todo el tema de comandos esta en el archivo interpreta.s, compilar usando gnuarm, dejo una version compilada que incluye el kernel y archivos correspondientes, tambien incluyo dos ejecutables por si deseas hacer la prueba en windows, los cuales compilan o ejecutan teniendo las dependencias instaladas, para linux, usando el comando make dentro de la carpeta compila, y usando el comando make clean, limpia los archivos compilados, cualquier duda contactarme por discord o mensajes de github.
